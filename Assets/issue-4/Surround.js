@@ -36,6 +36,7 @@ function Start () {
 
 function changeSurroundPoint() {
 	 isSurrondCube1 = !isSurrondCube1;
+	 transform.position = center;
 }
 
 function getSurroundPoint() {
