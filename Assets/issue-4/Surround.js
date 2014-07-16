@@ -12,7 +12,6 @@ function Start () {
 	Debug.Log("Start ...");
 	
 	cube1 = GameObject.Find("Cube1");
-
 	Debug.Log("Cube1 position ===> ");
 	Debug.Log(cube1.transform.position);
 	
